@@ -76,7 +76,7 @@ jobs:
           archive || echo "Archive build skipped (Xcode project not fully configured)"
     
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: CheckTracker-iOS
         path: |
@@ -117,7 +117,7 @@ jobs:
         ./gradlew :androidApp:assembleRelease
     
     - name: Upload APK Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: CheckTracker-Android
         path: |
@@ -154,7 +154,7 @@ jobs:
         ./gradlew :shared:test
     
     - name: Upload Test Reports
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: test-reports
