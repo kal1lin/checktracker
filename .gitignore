@@ -1,0 +1,72 @@
+# .gitignore for CheckTracker
+
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aab
+*.jar
+*.aar
+
+# Android Studio
+.idea/
+.gradle
+local.properties
+*.iml
+*.iws
+*.ipr
+*.swp
+*~
+
+# Compiled files
+*.class
+*.o
+*.so
+*.so.*
+*.dylib
+
+# IDE
+.vscode/
+.DS_Store
+*.exe
+*.dll
+*.pyc
+
+# Kotlin/KMP
+out/
+*.p.js
+.*_
+.konan/
+.libraryclassloader_*
+
+# Logs
+logs/
+*.log
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# iOS build artifacts
+Pods/
+Podfile.lock
+.xcworkspace/
+DerivedData/
+.swiftpm/
+
+# Node modules (if any)
+node_modules/
+
+# Release files
+/releases/
+*.pem
+*.p12
+keystore.jks

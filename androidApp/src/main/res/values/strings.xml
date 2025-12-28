@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ЧекТрекер</string>
+    <string name="scan_receipt">Сканировать чек</string>
+    <string name="daily_expenses">Дневные расходы</string>
+    <string name="monthly_expenses">Ежемесячные расходы</string>
+    <string name="total_expenses">Всего расходов</string>
+    <string name="categories">По категориям</string>
+    <string name="food">Еда</string>
+    <string name="transport">Транспорт</string>
+    <string name="home">Дом</string>
+    <string name="entertainment">Развлечения</string>
+    <string name="health">Здоровье</string>
+    <string name="utilities">ЖКХ</string>
+</resources>
